@@ -1,0 +1,45 @@
+.containerForm {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+form > h1{
+    text-align: center;
+}
+
+#codiceCliente{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+#passwordCliente{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+.btnSub{
+    border-radius: 2rem;
+    background-color: orangered;
+    border: hidden;
+}
+
+body {
+    background-color: black;
+}
