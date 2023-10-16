@@ -1,0 +1,141 @@
+.imgLogo {
+    height: 200px;
+    width: 200px;
+}
+
+
+  .navbar {
+    height: 50px; 
+  }
+
+
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.container-body{
+    margin-top: 50px;
+}
+
+#getTicket{
+    color: white;
+    background-color: fuchsia;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: hidden;
+    margin-right: 10px;
+    width: 150px;
+    
+}
+
+#learnMore{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 150px;
+}
+
+#login{
+    background-color: white;
+    border-radius: 2rem;
+    width: 100px;
+    height: 40px;
+}
+
+#login:hover{
+    background-color: rgb(246, 238, 238);
+}
+
+#getTicket:hover{
+    background-color: rgb(250, 7, 250);
+}
+
+#learnMore:hover{
+    background-color: rgb(246, 238, 238);
+}
+
+.searchTheater{
+    background-color: rgb(50, 23, 227);
+}
+
+.dark-mode {
+    background-color: rgb(0, 3, 46);
+    color: white !important;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.containerForm {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 44, 99);
+    color: white;
+    width: 30%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 2rem;
+    height: auto;
+    width: auto;
+}
+
+.formLabel{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+#codiceCliente{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+#emailCliente{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+
+.default{
+    color: black;
+}
+
+.logOff {
+    display: none;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}  
+
+.hiddenForm {
+    display: none !important;
+}
+
+.logOn {
+    display: block;
+}
